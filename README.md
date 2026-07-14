@@ -3,7 +3,23 @@
 ![Arduino](https://img.shields.io/badge/Arduino-Uno-blue)
 ![Language](https://img.shields.io/badge/C++-Arduino-blue)
 
-An Arduino-based automatic door system that detects people entering and exiting using two ultrasonic sensors. The system automatically controls the door with a servo motor and counts the number of people inside the room.
+An Arduino-based automatic door system that opens and closes the door automatically while counting the number of people entering and leaving a room.
+
+---
+
+## 📸 Project Preview
+
+### Prototype
+
+![Prototype](images/prototype.jpg)
+
+### Hardware Components
+
+![Hardware Components](images/hardware-components.jpg)
+
+### System Testing
+
+![System Testing](images/system-testing.jpg)
 
 ---
 
@@ -14,39 +30,24 @@ An Arduino-based automatic door system that detects people entering and exiting 
 - 📡 Dual ultrasonic sensors
 - 📺 LCD I2C display
 - ⚙️ Servo motor control
-- 🔄 Detects entry and exit direction
 
 ---
 
-## 🔧 Components
+## 🔧 Hardware
 
 - Arduino UNO
-- 2 × HC-SR04 Ultrasonic Sensors
+- HC-SR04 Ultrasonic Sensor ×2
 - Servo Motor
-- LCD I2C 16x2
+- LCD I2C 16×2
 - Breadboard
 - Jumper Wires
 
 ---
 
-## 🛠 Technologies
+## 🛠 Software
 
 - Arduino IDE
 - C++
-- Servo Library
-- LiquidCrystal_I2C Library
-
----
-
-## 🚀 How to Run
-
-1. Open the project using Arduino IDE.
-2. Install the required libraries:
-   - Servo
-   - LiquidCrystal_I2C
-3. Upload the code to Arduino UNO.
-4. Connect the components according to the circuit.
-5. Power on the system.
 
 ---
 
